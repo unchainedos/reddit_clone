@@ -1,5 +1,30 @@
-# asperitas - Клон Reddit
+<div align="center">
 
+# 🌟 asperitas
+
+### Reddit Clone на Go и React
+
+</div>
+
+## 🛠️ Tech Stack
+
+### Backend
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://golang.org)
+[![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io)
+[![bcrypt](https://img.shields.io/badge/bcrypt-525252?style=for-the-badge&logo=security&logoColor=white)](https://pkg.go.dev/golang.org/x/crypto/bcrypt)
+
+### Frontend
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org)
+[![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org)
+[![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com)
+[![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com)
+
+### Observability Stack
+[![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com)
+[![VictoriaMetrics](https://img.shields.io/badge/VictoriaMetrics-621773?style=for-the-badge&logo=victoriametrics&logoColor=white)](https://victoriametrics.com)
+[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com)
+[![Promtail](https://img.shields.io/badge/Promtail-F29E1F?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/oss/promtail/)
+[![Node Exporter](https://img.shields.io/badge/Node_Exporter-99A3A4?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/docs/guides/node-exporter/)
 ## Обзор
 
 **asperitas** — это полноценное веб-приложение, представляющее собой аналог Reddit. Проект включает в себя серверную часть на Go (Golang) и клиентскую часть на React. Платформа позволяет пользователям создавать посты, оставлять комментарии, голосовать за контент и просматривать материалы в различных категориях. В состав проекта входит полный стек для обеспечения наблюдаемости (observability), включающий мониторинг метрик, сбор логов и отслеживание состояния системы.
